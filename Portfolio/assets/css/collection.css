@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  background: black;
+}
+
+div.title {
+ /* position: relative;
+  top: 0px*/
+  font-size: 50px;
+  font-family: 'Quicksand', sans-serif;
+  text-align:center;
+  /*height: 10vh;
+  z-index: 1;*/
+  color: white;
+}
+
+div.hover-container{
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+  margin: .5vw;
+  position: relative;
+
+}
+
+div.hover-text{
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  font-size: 16pt;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  transform: translate(-50%,-50%);
+  margin: 0.5vw;
+
+}
+
+.hover-overlay{
+   /*background-color: rgba(176,176,176,0.5);*/ 
+   height: 100%;
+   position: relative;
+   z-index: 11;
+    overflow: hidden;
+    opacity: 100%;
+    transition-property: opacity;
+    transition: all 0.5s linear 0.1s;
+}
+
+.hover-overlay:hover{
+  opacity: 10%
+}
+
+
+
+header {
+  margin: .5vw;
+  font-size: 0;
+  display:  -ms-flexbox;
+  -ms-flexbox-wrap: wrap;
+  -ms-flexbox-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-bow;
+  display: flex;
+}
+
+header div{
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+  margin: .5vw
+}
+
+header div img{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 400px) {
+  header dive{
+    margin: 0;
+  }
+
+  header {
+    padding: 0;
+  }
+}
+
+iframe.video {
+  position: center;
+}
+
+.textoverimage{
+  background-size:100%;
+  background-position:center;
+  transition:0.5;
+}
+
+
+.textoverimage:hover{
+  background-size:110%;
+}
+
+.textoverimage;after{ 
+  content:attr(data-text);
+}

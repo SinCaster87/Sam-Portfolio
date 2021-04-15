@@ -1,0 +1,125 @@
+body {
+	background-color: black;
+  color: white;
+	/*text-align:center;*/
+  margin: 0px;
+} 
+
+
+img {
+	width: 800px;
+  /*position: absolute;*/
+}
+
+div.title {
+ /* position: relative;
+  top: 0px*/
+  font-size: 50px;
+  font-family: 'Quicksand', sans-serif;
+  text-align:center;
+  /*height: 10vh;
+  z-index: 1;*/
+}
+
+.title{
+  font-size: 50px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.paragraph{
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.welcome {
+  position: relative;
+  top: 0px;
+  z-index: 1;
+  font-size: 100px;
+  height: 100px
+}
+
+
+
+/*div.sc2p {
+  width: 400px
+}*/
+
+
+a:hover {
+  background-color: magenta;
+  opacity: 0.5
+}
+
+div.collection {
+  width:  25px
+  height: 50px
+}
+
+.slide-image {
+  margin: 0px;
+  position: relative;
+  top: 50%;
+  z-index: 1;
+}
+
+.slide-image:hover{
+  opacity: 50%;
+}
+
+#videoBG {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+#bkgimg {
+  z-index: -1;
+}
+
+.owl-stage{
+  margin: 0px !important;
+}
+
+.owl-nav, .owl-dots{
+  display: none !important;
+}
+
+
+.container-nav{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.customNextBtn{
+  top: 50%;
+  right: 0%;
+}
+
+.customPrevBtn{
+  top: 50%;
+  left: 0%;
+}
+
+
+.slide-link{
+  z-index: 2;
+}
+
+.nav-button{
+   font-size: 48px !important;
+    z-index: 4;
+  pointer-events: all;
+  cursor: pointer;
+  position: absolute;
+}

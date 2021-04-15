@@ -1,0 +1,110 @@
+body {
+	background-color: #1e1e2b;
+	/*text-align:center;*/
+} 
+img {
+	width: 800px;
+  /*position: absolute;*/
+  }
+
+div.title {
+ /* position: relative;
+  top: 0px*/
+  font-size: 50px;
+  font-family: 'Quicksand', sans-serif;
+  text-align:center;
+  /*height: 10vh;
+  z-index: 1;*/
+  color: white;
+}
+
+div.paragraph {
+ /* position: relative;
+  top: 0px*/
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  text-align:center;
+  /*height: 10vh;
+  z-index: 1;*/
+  color: white;
+}
+
+
+
+
+.body {
+	width: 15px
+	font-size 40px
+}
+
+.imagerow {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.imagecolumn {
+  flex: 50%;
+  padding: 0 40px;
+}
+/*.imagecolumn:hover {
+  transform: scale(1.05);  (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
+}*/
+
+header {
+  margin: .5vw;
+  font-size: 0;
+  display:  -ms-flexbox;
+  -ms-flexbox-wrap: wrap;
+  -ms-flexbox-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-bow;
+  display: flex;
+}
+
+header div{
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+  margin: .5vw
+}
+
+header div img{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 400px) {
+  header dive{
+    margin: 0;
+  }
+
+  header {
+    padding: 0;
+  }
+}
+
+iframe.video {
+  position: center;
+  text-align: center;
+
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+  .zoom {
+  padding: 50px;
+  background-color: #1e1e2b;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
