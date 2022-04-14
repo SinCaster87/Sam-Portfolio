@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: black !important;
   /*text-align:center;*/
 } 
 img {
@@ -18,7 +18,7 @@ div.title {
   color: white;
 }
 
-div.paragraph {
+div.row-text p {
  /* position: relative;
   top: 0px*/
   font-size: 30px;
@@ -36,6 +36,7 @@ div.hover-container{
   /*width: 200px;*/
   margin: .5vw;
   position: relative;
+  
 
 }
 
@@ -53,7 +54,7 @@ div.hover-text{
 
 }
 
-.hover-overlay{
+/*.hover-overlay{
    /*background-color: rgba(176,176,176,0.5);*/ 
    height: 100%;
    position: relative;
@@ -66,7 +67,7 @@ div.hover-text{
 
 .hover-overlay:hover{
   opacity: 5%
-}
+}*/
 
 
 .body {
@@ -74,13 +75,13 @@ div.hover-text{
   font-size 40px
 }
 
-.imagerow {
+/*.imagerow {
   display: flex;
   justify-content: center;
   margin: 0 auto;
   flex-wrap: wrap;
   padding: 0 4px;
-}
+}*/
 
 .imagecontainer{
   height: 600px;
@@ -93,7 +94,11 @@ div.hover-text{
 }
 
 /* Create two equal columns that sits next to each other */
-.imagecolumn {
+/*.imagecolumn {
   flex: 50%;
   padding: 0 40px;
+}*/
+
+.row.mxh img {
+  max-height: 500px;
 }
