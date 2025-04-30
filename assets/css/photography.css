@@ -16,6 +16,14 @@ img {
   text-align: center;
   color: white;
 }
+
+.subtext{
+  font-size: 30px;
+  font-family: Quicksand;
+  text-align: center;
+  color: white;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -65,3 +73,17 @@ img {
 }
 
 
+.hover-overlay{
+   /*background-color: rgba(176,176,176,0.5);*/ 
+   height: 100%;
+   position: relative;
+   z-index: 11;
+    overflow: hidden;
+    opacity: 100%;
+    transition-property: opacity;
+    transition: all 0.5s linear 0.1s;
+}
+
+.hover-overlay:hover{
+  opacity: 40%
+}
